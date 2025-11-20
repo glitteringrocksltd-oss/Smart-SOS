@@ -45,9 +45,9 @@ def generate_iot_reading():
     """Generate a single simulated sensor reading."""
     now = datetime.now()
 
-    temperature = round(random.uniform(20.0, 35.0), 2)  # °C
-    humidity = round(random.uniform(30.0, 80.0), 2)      # %
-    airflow = round(random.uniform(0.5, 5.0), 2)         # m/s
+    temperature = round(random.uniform(28.0, 32.0), 2)  # °C
+    humidity = round(random.uniform(70.0, 95.0), 2)      # %
+    airflow = round(random.uniform(0.6, 2.4), 2)         # m/s
 
     return {
         "timestamp": now,
