@@ -19,9 +19,9 @@ UPDATE_INTERVAL_SECONDS = 10  # 10 seconds
 
 st.title("🛰️ Smart-SOS Environment Monitoring Dashboard")
 st.write(
-    "This dashboard simulates live readings from an IoT device: "
+    "This dashboard displays live readings from the Smart SOS device: "
     "**Temperature, Humidity, and Airflow**. "
-    "Readings are generated every **10 seconds** and stored for historical analysis."
+    "Readings are captured every **10 seconds** and stored for historical analysis."
 )
 
 # -----------------------------
