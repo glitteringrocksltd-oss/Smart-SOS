@@ -67,7 +67,7 @@ if "data" not in st.session_state:
 # -----------------------------
 st.sidebar.header("Controls")
 
-run_simulation = st.sidebar.checkbox("Run simulation (every 10 seconds)", value=True)
+run_simulation = st.sidebar.checkbox("New Data (every 10 seconds)", value=True)
 
 # Date filter for historic data
 data = st.session_state.data.copy()
